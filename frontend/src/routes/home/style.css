@@ -1,0 +1,21 @@
+.home {
+	padding: 80px;
+	margin-top: 10px;
+	min-height: 100%;
+	width: 100%;
+}
+
+h1{
+	font-size:30px;
+}
+
+.card{
+	border-radius:5px;
+	background-color:#CAD5E2;
+}
+
+.btn{
+	width: 80px;
+	margin: 5px;
+	float:right;
+}
