@@ -234,12 +234,12 @@ const Home = () => {
 			},
 			org_type:org_type
 		}
-		if(department_name.length<3){
-			alert("Sorry enter valid input department min length is 3")
-		}else if(fname.length<3){
-			alert("Sorry enter valid input hod first name min length is 3")
-		}else if(lname.length<3){
-			alert("Sorry enter valid input hod last name min length is 3")
+		if(department_name.length<3||department_name.length>120){
+			alert("Sorry enter valid input department min length is 3 and max is 120")
+		}else if(fname.length<3||fname.length>30){
+			alert("Sorry enter valid input hod first name min length is 3 & max is 30")
+		}else if(lname.length<3||lname.length>30){
+			alert("Sorry enter valid input hod last name min length is 3 & max is 30")
 		}else if(onWrongNumberFormat(number)==false){
 		    alert(message);
 	    }else if(validateEmail(email)==false){
